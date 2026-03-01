@@ -1,38 +1,78 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Display Properties</title>
+    <title>Display Properties</title> 
     <style>
-        .div{
-            background-color: rgb(119, 124, 109) ;
-            height: 100px;
+        .block1{
+            background-color: #3498db;
+            color: white;
+            padding: 20px;
+            margin: 10px;
         }
-        .tech{
-            background-color: #B7B89F;
+        .block2 {
+            background-color:palevioletred;
+            color: white;
+            padding: 20px;
+            margin: 10px;
         }
-        .con{
-            background-color: rgb(203, 203, 203);
-            display: block;
-            height: 50px;
-            margin: 5px;
+        .inline1 {
+            background-color:rgb(227, 106, 106);
+            color: black;
+            padding: 10px;
         }
-        .head{
-            background-color: rgb(183, 184, 159);
+        .inline2 {
+            background-color: hsl(45, 100%, 50%);
+            color: black;
+            padding: 10px;
+        }
+        .inlineblock1{
+            display: inline-block;
+            width: 200px;
             height: 150px;
-            border-radius: 10px;
+            background-color: rgb(245, 210, 210);
+            color: black;
+            text-align: center;
+            margin: 10px;
+        }
+        .inlineblock2 {
+            display: inline-block;
+            width: 200px;
+            height: 150px;
+            background-color: #F8F7BA;
+            color: black;
+            text-align: center;
+            margin: 10px;
+        }
+        .inlineblock3 {
+            display: inline-block;
+            width: 200px;
+            height: 150px;
+            background-color: rgb(189, 227, 195);
+            color: black;
+            text-align: center;
+            margin: 10px;
+        }
+        .inlineblock4 {
+            display: inline-block;
+            width: 200px;
+            height: 150px;
+            background-color: #A3CCDA;
+            color: black;
+            text-align: center;
+            margin: 10px;
         }
     </style>
 </head>
 <body>
-    <div class="div">I am block element you can provide me height,width and i start from new line always</div></br>
-    <span class="tech">1.we</span>
-    <span class="tech">2.are</span>
-    <span class="tech">3.inline</span>
-    <h1 class="head">converting above inline to block</h1>
-    <span class="con">now </span>
-    <span class="con">we</span>
-    <span class="con">are</span>
-    <span class="con">converted to</span>
-    <span class="con">block</span>
+    <h1>Display Properties Example</h1>
+    <div class="block1">Block Division 1</div>
+    <div class="block2">Block Division 2</div>
+    <span class="inline1">Inline 1</span>
+    <span class="inline2">Inline 2</span>
+    <br><br>
+    <div class="inlineblock1">Box 1</div>
+    <div class="inlineblock2">Box 2</div>
+    <div class="inlineblock3">Box 3</div>
+    <div class="inlineblock4">Box 4</div>
 </body>
 </html>
